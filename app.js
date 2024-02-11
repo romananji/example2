@@ -158,3 +158,4 @@ app.get('/districts/:districtId/details', async function (request, response) {
   const dist = await db.get(getDistrictDetails)
   response.send(dist)
 })
+module.exports=app;
